@@ -1,0 +1,1 @@
+This repository contains the files to simulate a basic Unix Shell with its respective commands.
