@@ -7,7 +7,7 @@
  */
 int interactive(info_t *info)
 {
-	return (isatty(STDIN_FILENO) && info->readfd <=2);
+	return (isatty(STDIN_FILENO) && info->readfd <= 2);
 }
 
 /**
@@ -25,7 +25,7 @@ int is_delim(char c, char *delim)
 }
 
 /**
- * _isalpa - checks for the alphabetic chars
+ * _isalpha - checks for the alphabetic chars
  * @c: characcter input
  * Return: 1 if c is alpha else 0 if otherwise
  */
